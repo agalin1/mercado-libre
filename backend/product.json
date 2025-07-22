@@ -1,0 +1,196 @@
+[
+  {
+    "id": "a55-5g-256gb",
+    "title": "Samsung Galaxy A55 5G Dual SIM 256 GB Azul oscuro 8 GB RAM",
+    "price": 439,
+    "currency": "USD",
+    "description": "Con su potente procesador y 8 GB de RAM, su computadora logrará un alto rendimiento con una alta velocidad de transmisión de contenido y ejecutará varias aplicaciones al mismo tiempo, sin demoras.",
+    "category": "Celulares",
+    "features": {
+      "screen_size": "6.6''",
+      "internal_memory": "256 GB",
+      "main_camera": "50 Mpx",
+      "front_camera": "32 Mpx",
+      "nfc": true
+    },
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_800035-MLA81367078349_122024-F.webp",
+      "https://http2.mlstatic.com/D_Q_NP_2X_777643-MLA75395342152_042024-R.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_725539-MLA80825742603_112024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_868167-MLA81099064398_122024-F.webp"
+    ],
+    "stock": 50,
+    "seller": {
+      "name": "Samsung",
+      "is_official_store": true,
+      "rating": "5 mil ventas concretadas",
+      "shipping": "Envío gratis a todo el país"
+    },
+    "payment_methods": ["Visa", "MasterCard", "American Express", "OCA"]
+  },
+  {
+    "id": "lavadora-lg-18kg",
+    "title": "Lavadora LG Carga Superior 18kg Blanca",
+    "price": 320,
+    "currency": "USD",
+    "description": "Lavadora automática de carga superior con sistema Smart Inverter que optimiza el consumo energético y el rendimiento del lavado.",
+    "category": "Electrodomésticos",
+    "features": {
+      "screen_size": "N/A",
+      "internal_memory": "N/A",
+      "main_camera": "N/A",
+      "front_camera": "N/A",
+      "nfc": false
+    },
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_703338-MLA84551700098_052025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_839323-MLA84551603638_052025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_971276-MLA84551603666_052025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_685358-MLA84551633330_052025-F.webp"
+    ],
+    "stock": 20,
+    "seller": {
+      "name": "LG",
+      "is_official_store": true,
+      "rating": "3 mil ventas concretadas",
+      "shipping": "Envío gratis a capital y principales ciudades"
+    },
+    "payment_methods": ["Visa", "MasterCard", "Diners Club"]
+  },
+  {
+    "id": "estufa-mabe-6q",
+    "title": "Estufa Mabe 6 Quemadores Acero Inoxidable",
+    "price": 480,
+    "currency": "USD",
+    "description": "Estufa de gas con 6 quemadores, encendido eléctrico y horno de gran capacidad con puerta panorámica.",
+    "category": "Cocina",
+    "features": {
+      "screen_size": "N/A",
+      "internal_memory": "N/A",
+      "main_camera": "N/A",
+      "front_camera": "N/A",
+      "nfc": false
+    },
+    "images": [
+      "https://www.alkosto.com/medias/7861032328851-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxNjgyMHxpbWFnZS93ZWJwfGFHSTNMMmczTWk4eE5EazFNelEyTlRRME5qUXpNQzgzT0RZeE1ETXlNekk0T0RVeFh6QXdNVjgzTlRCWGVEYzFNRWd8NjJmMjUwYzQxZmVmODQyNzEzYWY3NjQzNDk4NzdmOWUyZTIxN2Y4NmZhMzAyYWM4YThiZTFkYWY0MTNhM2FkYQ",
+      "https://www.alkosto.com/medias/7861032328851-002-750Wx750H?context=bWFzdGVyfGltYWdlc3wxOTM4OHxpbWFnZS93ZWJwfGFHTXdMMmhqWlM4eE5EazFNelEyTmpBek5qSTFOQzgzT0RZeE1ETXlNekk0T0RVeFh6QXdNbDgzTlRCWGVEYzFNRWd8OGFkZGExY2U2ZjMzODA0MWJmNmFmY2UxZDk1NDVmZWY2ZjQ1NGFmOWVlZWIxYzRjYzE2MjhiNzM0OWI0MzliZg",
+      "https://www.alkosto.com/medias/7861032328851-004-750Wx750H?context=bWFzdGVyfGltYWdlc3wzMDA5MHxpbWFnZS93ZWJwfGFHUTRMMmhqTUM4eE5EazFNelEyTnpJeE5Ua3dNaTgzT0RZeE1ETXlNekk0T0RVeFh6QXdORjgzTlRCWGVEYzFNRWd8MjRiN2IzMTI1OGIxZDU0NTAwN2EyZDhkYjkyNWFjZjcxYjFiMzVjMzMyNWJkNGI5NTQxZWQwOGQxYzE1ZWUyOQ",
+      "https://www.alkosto.com/medias/7861032328851-006-750Wx750H?context=bWFzdGVyfGltYWdlc3w0Mzc1OHxpbWFnZS93ZWJwfGFHTXdMMmcxTWk4eE5EazFNelEyT0RNNU5UVTFNQzgzT0RZeE1ETXlNekk0T0RVeFh6QXdObDgzTlRCWGVEYzFNRWd8ZWE1N2ZiNTgyNzZhOTYwNjA0YTBmYjk4MTBkNDFhZTZjY2I1ZmU0OGI4ZTIzMGY5YTlhNTRlY2NjYTViNmI0MQ"
+    ],
+    "stock": 35,
+    "seller": {
+      "name": "Mabe Store",
+      "is_official_store": true,
+      "rating": "2 mil ventas concretadas",
+      "shipping": "Envío en 24h en zona metropolitana"
+    },
+    "payment_methods": ["Visa", "MasterCard", "PayPal"]
+  },
+  {
+    "id": "macbook-air-m2",
+    "title": "Apple MacBook Air 13'' Chip M2 256GB SSD 8GB RAM",
+    "price": 1099,
+    "currency": "USD",
+    "description": "La nueva MacBook Air con chip M2 ofrece un rendimiento increíble con una duración de batería superior, diseño liviano y pantalla Liquid Retina.",
+    "category": "Computadoras",
+    "features": {
+      "screen_size": "13.6''",
+      "internal_memory": "256 GB",
+      "main_camera": "1080p FaceTime HD",
+      "front_camera": "1080p FaceTime HD",
+      "nfc": false
+    },
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_829337-MCO84098334328_052025-F.webp",
+      "https://http2.mlstatic.com/D_Q_NP_2X_911295-MCO84394895157_052025-R.webp",
+      "https://http2.mlstatic.com/D_Q_NP_2X_984300-MCO84098430390_052025-R.webp",
+      "https://http2.mlstatic.com/D_Q_NP_2X_806903-MCO84098606074_052025-R.webp"
+    ],
+    "stock": 15,
+    "seller": {
+      "name": "Apple Store",
+      "is_official_store": true,
+      "rating": "10 mil ventas concretadas",
+      "shipping": "Envío Express gratis a todo el país"
+    },
+    "payment_methods": ["Visa", "MasterCard", "American Express", "Apple Pay"]
+  },
+  {
+    "id": "helmet-edge",
+    "title": "Casco Moto Edge Integral F. S. Negro Certificado Dot",
+    "price": 165,
+    "currency": "USD",
+    "description": "Casco integral certificado, ideal para motociclistas que buscan máxima seguridad y confort.",
+    "category": "Motos",
+    "features": {
+      "screen_size": "N/A",
+      "internal_memory": "N/A",
+      "main_camera": "N/A",
+      "front_camera": "N/A",
+      "nfc": false
+    },
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_900035-MLA81367078349_122024-F.webp"
+    ],
+    "stock": 100,
+    "seller": {
+      "name": "EDGE HELMETS",
+      "is_official_store": true,
+      "rating": "24 ventas concretadas",
+      "shipping": "Envío gratis a todo el país"
+    },
+    "payment_methods": ["Visa", "MasterCard", "American Express"]
+  },
+  {
+    "id": "baul-dr1-45l",
+    "title": "Baul Maletero Dr1 45 Litros Con Espaldar Base Desmontable",
+    "price": 270,
+    "currency": "USD",
+    "description": "Baúl maletero de 45 litros con base desmontable y espaldar, resistente y seguro para motos.",
+    "category": "Motos",
+    "features": {
+      "screen_size": "N/A",
+      "internal_memory": "N/A",
+      "main_camera": "N/A",
+      "front_camera": "N/A",
+      "nfc": false
+    },
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_839323-MLA84551603638_052025-F.webp"
+    ],
+    "stock": 60,
+    "seller": {
+      "name": "DR1",
+      "is_official_store": false,
+      "rating": "115 ventas concretadas",
+      "shipping": "Envío gratis a capital y principales ciudades"
+    },
+    "payment_methods": ["Visa", "MasterCard", "PayPal"]
+  },
+  {
+    "id": "llanta-dunlop-gt601",
+    "title": "Dunlop Arrowmax GT601 140/70-17",
+    "price": 285,
+    "currency": "USD",
+    "description": "Llanta de alto rendimiento para motos, excelente agarre y durabilidad.",
+    "category": "Motos",
+    "features": {
+      "screen_size": "N/A",
+      "internal_memory": "N/A",
+      "main_camera": "N/A",
+      "front_camera": "N/A",
+      "nfc": false
+    },
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_725539-MLA80825742603_112024-F.webp"
+    ],
+    "stock": 80,
+    "seller": {
+      "name": "IMCOVALLE",
+      "is_official_store": true,
+      "rating": "890 ventas concretadas",
+      "shipping": "Envío gratis"
+    },
+    "payment_methods": ["Visa", "MasterCard", "American Express"]
+  }
+]

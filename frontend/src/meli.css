@@ -1,0 +1,53 @@
+/* Estilos globales Mercado Libre */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  color: #333;
+}
+
+header.meli-header {
+  background: #ffe600;
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.meli-logo {
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.meli-navbar-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+
+.meli-btn-primary {
+  background: #ffe600;
+  color: #333;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+  transition: background 0.2s;
+}
+.meli-btn-primary:hover {
+  background: #fff200;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
