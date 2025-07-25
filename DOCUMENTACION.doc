@@ -1,0 +1,88 @@
+DOCUMENTACIÓN PROYECTO E-COMMERCE TIPO MERCADO LIBRE
+
+Autor: andresva9@hotmail.com
+Fecha: Julio 2025
+
+---
+
+ÍNDICE
+1. Introducción
+2. Elección de Diseño
+3. Tecnologías Utilizadas
+4. Arquitectura y Estructura del Proyecto
+5. Diagrama de Arquitectura
+6. Desafíos y Soluciones
+7. Ejemplo de Uso
+8. Conclusión
+
+---
+
+1. Introducción
+Este documento describe las decisiones de diseño, tecnologías utilizadas, arquitectura, desafíos y ejemplos de uso del proyecto e-commerce tipo Mercado Libre.
+
+2. Elección de Diseño
+- Arquitectura: Separación en frontend (React + Vite) y backend (Node.js + Express).
+- Estilos: Inspirados en Mercado Libre, con CSS modular y responsivo.
+- Testing: Jest, React Testing Library y Supertest para asegurar calidad.
+- Versionamiento: Git + GitHub con autenticación SSH.
+
+3. Tecnologías Utilizadas
+- React: Interfaces de usuario basadas en componentes.
+- Vite: Herramienta de desarrollo rápida para frontend.
+- Node.js y Express: Backend eficiente y escalable.
+- Jest, React Testing Library, Supertest: Pruebas automáticas.
+- Babel: Soporte para JSX y ESM.
+- CSS: Personalización visual y responsividad.
+- Git + GitHub: Control de versiones y colaboración.
+
+4. Arquitectura y Estructura del Proyecto
+Estructura General:
+- frontend/ (React + Vite): src, public, test, estilos.
+- backend/ (Node.js + Express): index.js, product.json, test.
+- Configuración: package.json, babel.config.mjs, jest.config.cjs.
+
+Componentes Principales:
+- App.jsx: Estructura principal y rutas.
+- Navbar.jsx: Navegación superior.
+- ProductList.jsx: Listado y filtros de productos.
+- ProductDetail.jsx: Detalle de producto.
+- Cart.jsx: Carrito de compras.
+- CartContext.jsx: Estado global del carrito.
+- Analytics.jsx: Métricas y analítica.
+
+5. Diagrama de Arquitectura
+(Exporta arquitectura.drawio.xml a PNG desde draw.io y agrégalo aquí)
+
+6. Desafíos y Soluciones
+- Testing y compatibilidad: Ajuste de Babel y Jest para JSX/ESM.
+- Estilos: CSS modular y pruebas visuales.
+- Estado global: Uso de React Context.
+- Versionamiento: Migración a SSH.
+- Documentación: README y diagramas claros.
+
+7. Ejemplo de Uso
+Flujo Básico:
+1. Usuario visualiza productos y filtra.
+2. Accede al detalle y agrega al carrito.
+3. Gestiona el carrito y finaliza compra.
+4. Consulta métricas en Analytics.
+
+Ejemplo de Código:
+import { useContext } from 'react';
+import { CartContext } from './CartContext';
+
+function AddToCartButton({ product }) {
+  const { addToCart } = useContext(CartContext);
+  return (
+    <button onClick={() => addToCart(product)}>
+      Agregar al carrito
+    </button>
+  );
+}
+
+8. Conclusión
+El proyecto implementa una arquitectura moderna, modular y escalable, con buenas prácticas de desarrollo, pruebas y documentación, facilitando su mantenimiento y evolución.
+
+---
+
+(Agrega portada, formato y diagrama visual en Word para presentación final)

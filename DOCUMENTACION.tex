@@ -1,0 +1,99 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\title{\textbf{Documentación Proyecto E-commerce tipo Mercado Libre}}
+\author{andresva9@hotmail.com}
+\date{Julio 2025}
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introducción}
+Este documento describe las decisiones de diseño, tecnologías utilizadas, arquitectura, desafíos y ejemplos de uso del proyecto e-commerce tipo Mercado Libre.
+
+\section{Elección de Diseño}
+\begin{itemize}
+  \item \textbf{Arquitectura:} Separación en frontend (React + Vite) y backend (Node.js + Express).
+  \item \textbf{Estilos:} Inspirados en Mercado Libre, con CSS modular y responsivo.
+  \item \textbf{Testing:} Jest, React Testing Library y Supertest para asegurar calidad.
+  \item \textbf{Versionamiento:} Git + GitHub con autenticación SSH.
+\end{itemize}
+
+\section{Tecnologías Utilizadas}
+\begin{itemize}
+  \item \textbf{React:} Interfaces de usuario basadas en componentes.
+  \item \textbf{Vite:} Herramienta de desarrollo rápida para frontend.
+  \item \textbf{Node.js y Express:} Backend eficiente y escalable.
+  \item \textbf{Jest, React Testing Library, Supertest:} Pruebas automáticas.
+  \item \textbf{Babel:} Soporte para JSX y ESM.
+  \item \textbf{CSS:} Personalización visual y responsividad.
+  \item \textbf{Git + GitHub:} Control de versiones y colaboración.
+\end{itemize}
+
+\section{Arquitectura y Estructura del Proyecto}
+\subsection*{Estructura General}
+\begin{itemize}
+  \item \textbf{frontend/} (React + Vite): src, public, test, estilos.
+  \item \textbf{backend/} (Node.js + Express): index.js, product.json, test.
+  \item \textbf{Configuración:} package.json, babel.config.mjs, jest.config.cjs.
+\end{itemize}
+
+\subsection*{Componentes Principales}
+\begin{itemize}
+  \item \textbf{App.jsx:} Estructura principal y rutas.
+  \item \textbf{Navbar.jsx:} Navegación superior.
+  \item \textbf{ProductList.jsx:} Listado y filtros de productos.
+  \item \textbf{ProductDetail.jsx:} Detalle de producto.
+  \item \textbf{Cart.jsx:} Carrito de compras.
+  \item \textbf{CartContext.jsx:} Estado global del carrito.
+  \item \textbf{Analytics.jsx:} Métricas y analítica.
+\end{itemize}
+
+\section{Diagrama de Arquitectura}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{arquitectura.png}
+\end{center}
+\textit{Nota: El diagrama puede ser editado en draw.io usando el archivo arquitectura.drawio.xml}
+
+\section{Desafíos y Soluciones}
+\begin{itemize}
+  \item \textbf{Testing y compatibilidad:} Ajuste de Babel y Jest para JSX/ESM.
+  \item \textbf{Estilos:} CSS modular y pruebas visuales.
+  \item \textbf{Estado global:} Uso de React Context.
+  \item \textbf{Versionamiento:} Migración a SSH.
+  \item \textbf{Documentación:} README y diagramas claros.
+\end{itemize}
+
+\section{Ejemplo de Uso}
+\subsection*{Flujo Básico}
+\begin{enumerate}
+  \item Usuario visualiza productos y filtra.
+  \item Accede al detalle y agrega al carrito.
+  \item Gestiona el carrito y finaliza compra.
+  \item Consulta métricas en Analytics.
+\end{enumerate}
+
+\subsection*{Ejemplo de Código}
+\begin{verbatim}
+import { useContext } from 'react';
+import { CartContext } from './CartContext';
+
+function AddToCartButton({ product }) {
+  const { addToCart } = useContext(CartContext);
+  return (
+    <button onClick={() => addToCart(product)}>
+      Agregar al carrito
+    </button>
+  );
+}
+\end{verbatim}
+
+\section{Conclusión}
+El proyecto implementa una arquitectura moderna, modular y escalable, con buenas prácticas de desarrollo, pruebas y documentación, facilitando su mantenimiento y evolución.
+
+\end{document}
